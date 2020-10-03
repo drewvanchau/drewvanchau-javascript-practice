@@ -1,4 +1,4 @@
-#Drew's javascript practive
+# Drew's javascript practive
 
 By Drew Van Chau, Intro Coding for Journalists class
 
