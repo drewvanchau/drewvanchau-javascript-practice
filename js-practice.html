@@ -8,34 +8,88 @@
 <body>
   <script>
     // Your code will go here
+
     console.log("Let's do math:");
     let x = 5;
+
     console.log(x);
     let y = 3;
+
     console.log(y);
     let z = x * y;
+
     console.log(z);
+
     // Math on my own
+
     let a = 12;
     console.log(a);
+
     let b = 6;
     console.log();
+
     let c = a + b;
     console.log(c);
+
     let d = a - b;
     console.log(d);
+
     let e = a / b;
     console.log(e);
+
     console.log("Working with strings:");
+
     let firstName = 'Drew';
+
     let middleName = 'Nguyen';
+
     let lastName = 'van Chau';
+
     let name = firstName + " " + middleName + " " + lastName;
     console.log(name)
+
     console.log("Strings on my own");
+
     let greeting = "My name is";
+
     let introduction = greeting + " " + name
     console.log(introduction)
+
+    // Part 2
+
+    console.log("Using functions:")
+
+    // function to make square numbers
+
+    function makeSquare(theNumb) {
+    let sasquatch = theNumb * theNumb;
+    return sasquatch;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    let try02 = makeSquare(14);
+    console.log(try02);
+
+    let try03 = makeSquare(5);
+    console.log(try03);
+
+    // Functions on my own
+
+    function makeName(firstName, secondName, thirdName) {
+    let yeti = firstName + " " + secondName + " " + thirdName;
+    return yeti;
+    }
+
+    let attempt1 = makeName("Drew", "Nguyen", "vanChau");
+    console.log(attempt1);
+
+    let attempt2 = makeName("Robert", "'Beto'", "O/Rourke");
+    console.log(attempt2);
+
+    let attempt3 = makeName("Christian", "Clay", "McDonald");
+    console.log(attempt3);
 
   </script>
 </body>
