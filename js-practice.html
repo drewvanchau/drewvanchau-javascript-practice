@@ -62,8 +62,8 @@
     // function to make square numbers
 
     function makeSquare(theNumb) {
-    let sasquatch = theNumb * theNumb;
-    return sasquatch;
+      let sasquatch = theNumb * theNumb;
+      return sasquatch;
     }
 
     let try01 = makeSquare(3);
@@ -78,8 +78,8 @@
     // Functions on my own
 
     function makeName(firstName, secondName, thirdName) {
-    let yeti = firstName + " " + secondName + " " + thirdName;
-    return yeti;
+      let yeti = firstName + " " + secondName + " " + thirdName;
+      return yeti;
     }
 
     let attempt1 = makeName("Drew", "Nguyen", "vanChau");
@@ -90,6 +90,39 @@
 
     let attempt3 = makeName("Christian", "Clay", "McDonald");
     console.log(attempt3);
+
+    // Making better name functions:
+
+    function makeBetterName(firstName, secondName, thirdName) {
+      if (secondName.length === 1) {
+      return (secondName = secondName + ".");
+      }
+        let fullName = firstName + " " + secondName + " " + thirdName;
+        return fullName;
+        }
+
+    console.log(makeBetterName("Joan", "Marie", "Larkin"));
+
+    console.log(makeBetterName("John", "F", "Kennedy"));
+
+    console.log(makeBetterName("Drew", "N", "vanChau"));
+
+    // Soccer
+
+    console.log("scoreCompare function");
+    function scoreCompare(home, away) {
+      if (home > away) {
+        console.log("Home team wins!");
+      } else if (home = away) {
+        console.log("It was a tie");    
+      } else {
+        console.log("Away team wins :(");
+      } 
+      }
+    
+    console.log(scoreCompare(5,3));
+    console.log(scoreCompare(3,5));
+    console.log(scoreCompare(3,3));
 
   </script>
 </body>
